@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Raleway", Arial, Helvetica, sans-serif;
+   margin: 0;
+}
+
+/* ESTILOS DO BANNER */
+.banner {
+   /* background: url("/img/banner-bg.png") center no-repeat;
+   height: 100vh;
+   width: 100%; */
+   text-align: center;
+   padding: 20rem;
+   color: white;
+   background: linear-gradient(-45deg, #1f1e22, #38a0b2, #df9bb8, #d45d5d);
+   background-size: 400% 400%;
+	animation: gradient 10s ease-in-out infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.container {
+   max-width: 1080px;
+   margin: 0 auto;
+
+}
+
+.banner__titulo {
+   font-size: 2rem;
+}
+
+.banner__subtitulo {
+   font-size: 2.3 rem;
+}
+
+.u-margin-bottom-peq {
+   margin-bottom: 2rem;
+
+}
+
+.btn {
+  
+   text-transform: uppercase;
+   padding: 1rem 2rem;
+   font-size: 1.5rem;
+   
+   
+}
+
+.btn-branco {
+   color:rgba(255,255,255,0.3);
+   border: 1px solid rgba(255,255,255,0.3);
+   transition: .5s;
+   opacity: .3;
+}
+
+
+.btn-branco:hover {
+   transition: .5s;
+   color: rgb(255, 237, 237);
+   border: 1px solid rgba(29, 5, 5, 0.3);
+   opacity: .8;
+}
+
+p {
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+}
+
+a {
+   text-decoration: none;
+}
+
+/* about me session */
+
+
+.sobre__div {
+   margin: 15rem;
+   margin-top: 10 rem;
+}
+
+.sobre__titulo {
+   font-size: 4rem;
+   color: #C4C4C4;
+}
+
+.sobre__descricao-div {
+   width: 40%;
+   display: inline-block;
+   line-height: 1.5;
+}
+
+.sobre__descricao-texto {
+   font-size: 1.2rem;
+}
+
+.sobre__descricao-destaque {
+   font-size: 2rem;
+}
+
+.sobre__habilidades-div {
+   display: inline-block;
+   margin-left: 10rem;
+}
+
+.sobre__habilidades-titulo {
+   font-size: 2rem;
+}
+
+.sobre__habilidades-lista {
+   padding-left: 2rem;
+   line-height: 2;
+   font-size: 1.6rem;
+}
+
+.btn-roxo {
+   color: #7E459B;
+   border: 1px solid #7E459B;
+}
+
+ul {
+   display: block;
+   list-style-type: disc;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   padding-inline-start: 40px;
+}
+
+/* SOCIAL NETWORK */
+
+
+.footer {
+   text-align: center;
+   margin-bottom: 10rem;
+}
+
+.redes__sociais-item {
+   display: inline-block;
+   width: 20%;
+
+   padding: 2rem 0;
+   margin: 0 1rem;
+   text-align: center;
+   color: white;
+   background: linear-gradient(-45deg, #1f1e22, #38a0b2, #df9bb8, #d45d5d);
+   background-size: 300% 300%;
+	animation: gradient 8s ease-in-out infinite;
+}
+
+.redes__sociais-img {
+   margin-bottom: 0.5rem;
+}
+
+h3 {
+   font-size: 2.5rem;
+}
